@@ -1,0 +1,17 @@
+# Django framework
+Django==4.2.3
+
+# SQLite database driver (built into Python standard library, no need to install separately)
+
+# Additional dependencies (if needed)
+djangorestframework==3.14.0  # For building APIs
+gunicorn==20.1.0            # WSGI HTTP Server for UNIX for deploying Django applications
+psycopg2-binary==2.9.7      # PostgreSQL database adapter for Python (optional, if you need to switch to PostgreSQL later)
+
+# Development dependencies
+pytest==7.3.2               # Testing framework
+pytest-django==4.5.2        # Django plugin for pytest
+django-debug-toolbar==4.0   # Debugging tool for Django
+
+# Additional utilities
+requests==2.28.2            # HTTP library for making requests
